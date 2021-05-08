@@ -12,7 +12,7 @@ namespace BACKEND_TAREA3
         //SELECT * FROM Employees
         public static void Employee()
         {
-            var EmployeeQry = EmployeesSC.GetEmployees();
+            var EmployeeQry = new EmployeesSC().GetEmployees();
             var output = EmployeeQry.ToList();
 
 
@@ -22,7 +22,7 @@ namespace BACKEND_TAREA3
         //Where CategoryID = ID
         public static void Product(int ID)
         {
-            var ProductQry = ProductsSC.GetProduct().Select(s => new
+            var ProductQry = new  ProductsSC().GetProduct().Select(s => new
              {
                  s.ProductId,
                  s.ProductName,
@@ -37,11 +37,11 @@ namespace BACKEND_TAREA3
         //SELECT CompanyName, ContactName, Phone FROM Custumer
         public static void Custumer()
         {
-            var CustumerQry = CustumersSC.GetCustumers().Select(S => new
+            var CustumerQry = new CustumersSC().GetCustumers().Select(S => new
             {
                 S.CompanyName,
                 S.ContactName,
-                S.Phone
+                S.Phone 
             });
 
             var output = CustumerQry.ToList();

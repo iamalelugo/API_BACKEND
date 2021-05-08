@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BACKEND_TAREA3", "BACKEND_TAREA3\BACKEND_TAREA3.csproj", "{D63F36C2-5BF4-4635-8918-ABFA7591341A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind_API", "Northwind_API\Northwind_API.csproj", "{2E56F67D-DBF7-4926-A52F-615CB6049576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind_API", "Northwind_API\Northwind_API.csproj", "{2E56F67D-DBF7-4926-A52F-615CB6049576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP_Northwind", "APP_Northwind\APP_Northwind.csproj", "{219FDFCC-F582-4828-AD77-01BDC2DA965D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2E56F67D-DBF7-4926-A52F-615CB6049576}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E56F67D-DBF7-4926-A52F-615CB6049576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E56F67D-DBF7-4926-A52F-615CB6049576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219FDFCC-F582-4828-AD77-01BDC2DA965D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219FDFCC-F582-4828-AD77-01BDC2DA965D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219FDFCC-F582-4828-AD77-01BDC2DA965D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219FDFCC-F582-4828-AD77-01BDC2DA965D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

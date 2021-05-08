@@ -16,13 +16,20 @@ namespace Northwind_API.Controllers
     [ApiController]
     public class EmployeesController : ControllerBase
     {
+        private EmployeesSC EmployeeS = new EmployeesSC();
+
         //GET Eemployee
         // GET: api/<EmployeesController>
         [HttpGet]
-        public List<Employee> Get()
+        public IActionResult Get()
         {
-            var Employees = new EmployeesSC().GetEmployees().ToList();
-            return Employees;
+            var Employee = EmployeeS.GetEmployees().Select(s => new EmployeeModel { 
+            EmployeesId = s.EmployeeId,
+            FirstName = s.FirstName,
+            LastName = s.LastName,
+            Phone = s.HomePhone}).ToList();
+
+            return Ok(Employee);
         }
 
         // GET api/<EmployeesController>/5

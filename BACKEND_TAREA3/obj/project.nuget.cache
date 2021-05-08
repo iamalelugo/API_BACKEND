@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2jaI/YL69J2RBYrz1e3THYOt2JW92WSkQrMlooc88X3mo13S+08jwd5cf/6bM7aV4fh1Cg+llOn0u62rYupaVw==",
+  "dgSpecHash": "5W8wsh9PpCTYLG5TR89Usgz9T/gV3hxiRQnpOY7ZQR4L1WJLQ2hG36XQFYIBVG6Hq7bqOupap7dxcduRjbKb6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alelu\\source\\repos\\BACKEND_TAREA3\\BACKEND_TAREA3\\BACKEND_TAREA3.csproj",
+  "projectFilePath": "C:\\Users\\alelu\\Source\\Repos\\iamalelugo\\API_BACKEND\\BACKEND_TAREA3\\BACKEND_TAREA3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alelu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alelu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
